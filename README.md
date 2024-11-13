@@ -2,20 +2,20 @@
 
 ## Pré-requis
 - Proxmox avec une VM minimaliste installée (Debian/Ubuntu).
-- Docker et Docker Compose installés sur la VM.
 
 ## Installation
 
-1. Lancer le script  pour installer Docker et Docker Compose.
-2. Placer le fichier  sur la VM.
-3. Lancer les conteneurs avec .
+1. Placer le fichier  sur la VM.  (git clone lien ssh)
+2. Lancer le script  pour installer Docker et Docker Compose. (sh install_docker.sh)
+3. Lancer les conteneurs avec docker-compose up -d
 
 ## Services disponibles
 
-- **WordPress** : Accessible sur 
-- **Zabbix** : 
-  - Serveur Zabbix sur le port 
-  - Interface web Zabbix : 
+- **WordPress** :
+- Acces par le port 8080
+- **Zabbix** :
+- Serveur Zabbix sur le port 10051
+- Interface web Zabbix : 8081
 
 ## Utilisation
 
