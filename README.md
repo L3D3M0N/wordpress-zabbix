@@ -2,6 +2,7 @@
 
 ## Pré-requis
 - Proxmox avec une VM minimaliste installée (Debian/Ubuntu).
+- Installer git sur la VM (apt install git)
 
 ## Installation
 
